@@ -1,0 +1,225 @@
+/* ESTILOS CSS
+Sitio web: PATITAS DE CORAZÓN
+Description: Rescate de perros y gatos abandonados o en condición de maltrato
+Autor: Eder Villalobos
+*/
+/* FUENTES
+font-family: 'Arvo', serif;
+font-family: 'Hind', sans-serif;
+*/
+@media screen {
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #0C9;
+	width: 100%;
+	font-family: 'Hind', sans-serif;
+	margin: 0px auto 0px;
+	padding: 0;
+	color: #FFF;
+	border-top: 3px solid #06F;
+}
+
+a {
+	color: #FFF;
+}
+
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+} 
+
+a img {
+	border: none;
+}
+
+img {
+	display: block;
+	margin: 1em 0;
+    max-width : 100%;
+    height: auto;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+#contenido{
+	max-width: 960px;
+	margin: 2px auto 5px;
+	padding: 0px;
+	position: relative;
+}
+
+p {
+	margin: 2%;
+	text-align: justify;
+}
+
+h1{
+	font-family: 'Arvo', serif;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin: 0px;
+}
+
+h2{
+	font-family: 'Hind', sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: center; 
+}
+
+header{
+    overflow: hidden;
+	width: 100%;
+	margin: 0px auto 0px;
+	padding: 0px;
+    overflow : hidden;
+    height : auto;
+}
+
+nav{
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	list-style-type: none;
+	margin: 5px;
+	padding: 0px;
+}
+
+section{
+	background-color: #0CC;
+	float:left;
+    width: 62%;
+	margin: 1% 0 1% 0;
+	padding: 0px;
+    line-height: 1.4;
+	border-radius: 10px;
+}
+
+aside{
+	background-color: #0CC;
+	word-wrap: break-word; 
+  	overflow: hidden; 
+	float: right;
+    width: 32%;
+  	clear: right;
+	margin: 1% 0 1% 0;
+	padding: 0px 0px 15px 0px;
+	display: inline;
+    font-size : 12px;
+    line-height: 1.4;
+	border-radius: 10px;
+}
+
+footer{
+	background-color: #06C;
+	width : 100%;
+    height: auto;
+    overflow : hidden;
+    margin: 1% 0 1% 0;
+    clear: both;
+    display: block;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+/* Formulario */
+.contact_form ul {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+.contact_form li{
+    padding:12px; 
+    position:relative;
+}
+.contact_form input {
+    height:20px; 
+    width:220px; 
+    padding:5px 8px;
+    border-radius: 5px;
+}
+.contact_form textarea {
+    padding:8px; 
+    width:300px;
+}
+.contact_form button {
+    margin-left: 90px;
+}
+.contact_form input, .contact_form textarea { 
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 5px;
+    color: #888;
+    padding-right: 30px;
+    transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff; 
+    border:1px solid #06F; 
+    box-shadow: 0 0 3px #aaa; 
+    padding-right: 80px;
+}
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+    box-shadow: 0 0 5px #06F;
+    border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+    box-shadow: 0 0 5px #06F;
+    border-color: #b03535;
+}
+button.submit {
+   padding: 9px 17px;
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #888;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   background-color: #fff;
+   border: 1px solid #f1f1f1;
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+    opacity:.75;
+    cursor: pointer; 
+    color: #777;
+}
+button.submit:active {
+    border: 1px solid #222;
+    box-shadow: 0 0 10px 5px #444 inset; 
+}
+} /* FIN screen media */
+@media screen and (max-width: 650px) {
+section {
+	float:left;
+    width: 98%;
+	margin: 0 1% 0 1%;
+	padding: 0px;
+}
+aside {
+	float: left;
+	width: 100%;
+    margin: 1% 0 1% 0;
+}
+}
